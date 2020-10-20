@@ -81,7 +81,7 @@ if __name__ == "__main__":
         while fail_num > 0:
             try:
                 # 修改步数结果
-                result = LexinSport('17862739511', '1570140958A', 40000).change_step()
+                result = LexinSport('username', 'pwd', step).change_step()
                 print(result)
                 break
             except Exception as e:
